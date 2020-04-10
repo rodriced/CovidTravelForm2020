@@ -1,0 +1,10 @@
+.blinking{
+    animation:blinkingColor 1.2s infinite;
+}
+@keyframes blinkingColor{
+    0%{     color: inherit;    }
+    49%{    color: inherit; }
+    60%{    color: transparent; }
+    99%{    color: transparent;  }
+    100%{   color: inherit;    }
+}
